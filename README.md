@@ -1,9 +1,9 @@
 # Nifty_Strategy_Backtesting
 This project includes backtesting a strategy on the Nifty Index over 16+ years of historical data. The goal is to analyze the performance of strategy and evaluates its effectiveness.
 
-📊 DATA SOURCE:
-Nifty & USD Data: Fetched using the yfinance library.
-Data Retrieval Code: Included in the notebook for reproducibility.
+📊DATA SOURCE:
+-Nifty & USD Data: Fetched using the yfinance library.
+-Data Retrieval Code: Included in the notebook for reproducibility.
 
 📊 RESULTS AND INSIGHTS:
 - Identify the Inverse Correlation between Nifty Index and USD returns.
