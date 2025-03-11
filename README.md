@@ -1,4 +1,4 @@
-# Nifty_Strategy_Backtesting
+# Nifty USD-INR Strategy Backtesting
 This project includes backtesting a strategy on the Nifty Index over 16+ years of historical data. The goal is to analyze the performance of strategy and evaluates its effectiveness.
 
 📊DATA SOURCE:
@@ -6,21 +6,22 @@ This project includes backtesting a strategy on the Nifty Index over 16+ years o
 -Data Retrieval Code: Included in the notebook for reproducibility.
 
 📊 RESULTS AND INSIGHTS:
-- Identify the Inverse Correlation between Nifty Index and USD returns.
-- Capturing simple returns VS Normalize returns.
-- Finding the best Window size which give [Highest win rate,maximum annualized returns, best Stop_loss].
-- Summarizing the statistics of strategy. 
+- Identified the inverse correlation between the Nifty Index and USD returns.
+- Compared simple returns vs. normalized returns.
+- Determined the optimal window size for maximum win rate, annualized returns, and best stop-loss.
+- Summarized key statistics of the strategy.
+
 
 ⚡STRATEGY DETAILS:
-- Calculate the returns of both Nifty and USD.
-- Using returns calculate rolling normalize returns of both (Rolling mean / Rolling STD).
-- Compare the normalize returns of both Nifty and USD.
-
+- Calculated returns for both Nifty and USD.
+- Computed rolling normalized returns (using rolling mean & rolling standard deviation).
+- Compared normalized returns of Nifty and USD.
+- 
 🛠️LIBRARIES USED:
--pandas – Data manipulation
--matplotlib & seaborn – Data visualization
--yfinance – Fetching market dat
--vectorbt – Quantitative finance and backtesting
+- pandas – Data manipulation
+- matplotlib & seaborn – Data visualization
+- yfinance – Fetching market data
+- vectorbt – Quantitative finance and backtesting
 
 🚀HOW TO RUN THE NOTEBOOK:
 - git clone https://github.com/RohitPrakashMhatre/Nifty_Strategy_Backtesting.git
