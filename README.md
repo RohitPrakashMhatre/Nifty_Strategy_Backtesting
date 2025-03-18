@@ -15,7 +15,7 @@ This project includes backtesting a strategy on the Nifty Index over 16+ years o
 ⚡STRATEGY DETAILS:
 - Calculated returns for both Nifty and USD.
 - Computed rolling normalized returns (using rolling mean & rolling standard deviation).
-- Compared normalized returns of Nifty and USD.
+- Compared normalized returns of Nifty and USD..
 - 
 🛠️LIBRARIES USED:
 - pandas – Data manipulation
